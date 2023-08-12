@@ -1,0 +1,9 @@
+.ant-form-item-label > label.ant-form-item-required,
+.ant-form-item-label > label[title="Email"] {
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}

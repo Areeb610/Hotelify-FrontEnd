@@ -1,0 +1,74 @@
+/* Updated CSS for Admin Page */
+.admin-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f2f5f8; /* Lighter background color */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dark-text {
+    color: #333; /* Dark text color */
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px; /* Add padding for content area */
+  }
+  
+  .booking-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .booking-item {
+    margin-bottom: 20px;
+    background-color: #fff; /* White background for each booking item */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .divider {
+    border: none;
+    border-top: 1px solid #ccc; /* Lighter divider color */
+    margin-top: 10px;
+  }
+  
+  /* Style the buttons */
+  .ant-btn {
+    margin-right: 10px;
+  }
+  
+  /* Footer styles */
+  .custom-footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #001529;
+    color: #fff;
+  }
+  
+  /* Additional styles for contact details */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-item {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add responsive styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .booking-item,
+    .contact-item {
+      padding: 15px;
+    }
+  }
+  

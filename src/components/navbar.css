@@ -1,0 +1,21 @@
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    padding: 16px;
+  }
+  
+  /* Override Ant Design default styles */
+  .ant-menu-item {
+    color: white;
+    padding: 0 16px;
+    line-height: 64px;
+  }
+  
+  /* Change active menu item color */
+  .ant-menu-item-selected {
+    background-color: #1890ff;
+  }
+
+  

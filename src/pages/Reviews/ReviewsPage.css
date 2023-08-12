@@ -1,0 +1,62 @@
+/* ReviewsPage.css */
+
+/* Style for the entire ReviewsPage */
+.reviews-page {
+  background-color: #001529;
+  padding: 20px;
+}
+
+/* Style for the ReviewForm component */
+.review-form-container {
+  border: 1px solid #ccc;
+  background-color: teal; 
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Style for the AverageRatings component */
+.average-ratings-container {
+  border: 1px solid #ddd;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Style for the title of each component */
+.component-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* No need for a separate CSS file, styles are defined here */
+
+.average-ratings {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.average-ratings h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.room-card {
+  border: 2px solid #1890ff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.room-card .ant-card-head {
+  background-color: #1890ff;
+  color: #fff;
+  border-radius: 8px 8px 0 0;
+}
+
+.room-card .ant-card-body {
+  padding: 10px;
+}

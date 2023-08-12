@@ -1,0 +1,4 @@
+.ant-modal-body .ant-form-item-label > label.ant-form-item-required,
+.ant-modal-body .ant-form-item-label > label[title="Email"] {
+  color: black;
+}
