@@ -7,7 +7,7 @@ const Signup = () => {
 
   const onFinish = (values) => {
     setLoading(true);
-    fetch('http://localhost:4000/signup', {
+    fetch('https://lake-narrow-hippopotamus.glitch.me/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
