@@ -1,8 +1,6 @@
 import { Layout, Menu } from 'antd';
 import { HomeOutlined, CalendarOutlined, ContactsOutlined, LogoutOutlined, CommentOutlined } from '@ant-design/icons';
-
 const { Header } = Layout;
-
 const CustomNavbar = () => {
  var isLoggedIn = false;
 
