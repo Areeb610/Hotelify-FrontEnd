@@ -28,7 +28,7 @@ const RoomsPage = () => {
 
   const fetchRooms = async () => {
     try {
-      const response = await fetch('http://localhost:4000/rooms');
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/rooms');
       const data = await response.json();
       setRooms(data.data);
     } catch (error) {
@@ -64,7 +64,7 @@ const RoomsPage = () => {
   const handleBookingSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch('http://localhost:4000/booking', {
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/booking', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ const RoomsPage = () => {
   const handleCheckout = async () => {
     try {
       // Create a checkout session on your backend
-      const response = await fetch('http://localhost:4000/create-checkout-session', {
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/create-checkout-session', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

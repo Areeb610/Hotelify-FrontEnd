@@ -13,7 +13,7 @@ const ReviewsPage = () => {
 
   const fetchReviews = async () => {
     try {
-      const response = await fetch('http://localhost:4000/reviews');
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/reviews');
       const data = await response.json();
       console.log(data);
       setReviews(data.data);
@@ -26,7 +26,7 @@ const ReviewsPage = () => {
   const handleReviewSubmit = async (newReview) => {
     console.log(newReview);
     try {
-      const response = await fetch('http://localhost:4000/reviews', {
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/reviews', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

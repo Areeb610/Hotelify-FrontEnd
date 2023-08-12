@@ -15,7 +15,7 @@ const AdminPage = () => {
 
   const fetchBookings = async () => {
     try {
-      const response = await fetch('http://localhost:4000/booking');
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/booking');
       const data = await response.json();
       setBookings(data);
     } catch (error) {
@@ -25,7 +25,7 @@ const AdminPage = () => {
 
   const fetchContacts = async () => {
     try {
-      const response = await fetch('http://localhost:4000/contact');
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/contact');
       const data = await response.json();
       setContacts(data);
     } catch (error) {
@@ -35,7 +35,7 @@ const AdminPage = () => {
 
   const handleStatusChange = async (bookingId, newStatus, roomID) => {
     try {
-      const response = await fetch('http://localhost:4000/admin', {
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/admin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

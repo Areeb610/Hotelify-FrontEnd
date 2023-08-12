@@ -5,7 +5,7 @@ import CustomFooter from '../../components/footer';
 const ContactForm = () => {
   const onFinish = async (values) => {
     try {
-      const response = await fetch('http://localhost:4000/contact', {
+      const response = await fetch('https://lake-narrow-hippopotamus.glitch.me/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
