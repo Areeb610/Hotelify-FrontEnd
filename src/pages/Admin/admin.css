@@ -8,6 +8,55 @@
     margin: 0;
     padding: 0;
   }
+
+
+.dark-text {
+  color: #333; /* Dark text color */
+}
+
+.content {
+  flex: 1;
+  padding: 20px; /* Add padding for content area */
+}
+
+.login-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-form {
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #001529;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the buttons */
+.ant-btn {
+  margin-right: 10px;
+}
+
+/* Footer styles */
+.custom-footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #001529;
+  color: #fff;
+}
+
+
+
+/* Add responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+  .booking-item,
+  .contact-item {
+    padding: 15px;
+  }
+}
+
   
   .dark-text {
     color: #333; /* Dark text color */
